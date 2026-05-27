@@ -3,4 +3,4 @@ class Customer:
         self.name = name
 
     def order_transport(self, service):
-        return service.order_transport()
+        service.order_transport()
