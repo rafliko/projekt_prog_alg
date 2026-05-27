@@ -22,3 +22,23 @@ class Bike(Transport):
 
     def trip_time(self):
         return "4h"
+
+class car(Transport):
+    def transport_type(self):
+        return "Car"
+
+    def arrival_time(self):
+        return "5:00"
+
+    def trip_time(self):
+        return "1h"
+
+class Scooter(Transport):
+    def transport_type(self):
+        return "Scooter"
+
+    def arrival_time(self):
+        return "6:00"
+
+    def trip_time(self):
+        return "2h"
