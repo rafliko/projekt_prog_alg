@@ -29,7 +29,7 @@ def test_transport(transport_option, expected_type, expected_arrival, expected_t
     (ScooterTransportServices, Scooter, "Scooter"),
 ])
 
-def TestServiceCorrect(service_option, expected_transport_option, expected_name):
+def test_service_correct(service_option, expected_transport_option, expected_name):
     """Czy serwis produkuje odpowiedni obiekt"""
 
     service = service_option()
