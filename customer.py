@@ -1,6 +1,6 @@
 class Customer:
     """
-    Klasa reprezentująca klenta.
+    Klasa reprezentująca klienta.
 
     Attributes:
         name (string): Nazwa klienta.
