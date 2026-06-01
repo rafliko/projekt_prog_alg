@@ -17,6 +17,7 @@ ale pozwala podklasom zmieniać typ tworzonych obiektów.
 
 Ten projekt implementuje wzorzec Factory Method poprzez abstrakyjną klasę *TransportServices*
 oraz dziedziczące po niej klasy *BikeTransportServices*, *CarTransportServices* oraz *ScooterTransportServices*.
+
 ---
 
 ## Przykłady działania
