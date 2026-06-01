@@ -1,6 +1,6 @@
 import pytest
 
-from customer import customer
+from customer import Customer
 from services import BikeTransportServices, CarTransportServices, ScooterTransportServices
 from transport import Bike, Car, Scooter
 
