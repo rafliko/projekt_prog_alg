@@ -16,7 +16,7 @@ class Customer:
 
     def order_transport(self, service):
         """
-        Metoda zamawiajaaca transport dla klienta.
+        Metoda zamawiająca transport dla klienta.
 
         Parameters:
             service (TransportServices): Obiekt dziedziczący po klasie abstrakcyjnej TransportServices.
