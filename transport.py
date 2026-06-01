@@ -1,17 +1,40 @@
 from abc import ABC, abstractmethod
 
+
 class Transport(ABC):
+    """
+    Abstrakcyjna klasa reprezentująca środek transportu.
+    """
     @abstractmethod
     def transport_type(self):
+        """
+        Abstrakcyjna metoda zwracająca nazwę środka transportu.
+
+        Returns:
+            str: Nazwa środka transportu.
+        """
         pass
 
     @abstractmethod
     def arrival_time(self):
+        """
+        Abstrakcyjna metoda zwracająca czas przyjazdu.
+
+        Returns:
+            str: Czas przyjazdu.
+        """
         pass
 
     @abstractmethod
     def trip_time(self):
+        """
+        Abstrakcyjna metoda zwracająca czas podróży.
+
+        Returns:
+            str: Czas podróży.
+        """
         pass
+
 
 class Bike(Transport):
     def transport_type(self):
@@ -32,6 +55,7 @@ class Car(Transport):
 
     def trip_time(self):
         return "1h"
+
 
 class Scooter(Transport):
     def transport_type(self):
