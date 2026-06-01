@@ -17,7 +17,7 @@ def test_transport(transport_option, expected_type, expected_arrival, expected_t
 
     transport = transport_option()
 
-    assurt transport.transport_type() == expected_type
+    assert transport.transport_type() == expected_type
     assert transport.arrival_time() == expected_arrival
     assert transport.trip_time() == expected_trip
 
