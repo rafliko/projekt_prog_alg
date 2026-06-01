@@ -23,7 +23,7 @@ class Bike(Transport):
     def trip_time(self):
         return "4h"
 
-class car(Transport):
+class Car(Transport):
     def transport_type(self):
         return "Car"
 
