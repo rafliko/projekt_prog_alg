@@ -10,7 +10,7 @@ class Customer:
         Inicjalizacja klasy klienta.
 
         Parameters:
-            name (int): Nazwa klienta.
+            name (string): Nazwa klienta.
         """
         self.name = name
 
