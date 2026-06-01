@@ -38,7 +38,7 @@ class CarTransportServices(TransportServices):
     def transport_name(self):
         return "Car"
 
-class scooterTransportServices(TransportServices):
+class ScooterTransportServices(TransportServices):
     def create_transport(self):
         return Scooter()
 
